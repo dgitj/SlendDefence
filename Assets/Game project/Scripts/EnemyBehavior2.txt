@@ -1,0 +1,10 @@
+tree("Root")
+	sequence
+		while Visible
+			sequence
+				Falling
+				Wait 5.0
+		ResetVisibility
+		Walk
+		Wait 10.0
+

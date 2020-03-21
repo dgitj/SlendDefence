@@ -1,0 +1,17 @@
+tree("Root")
+	random
+		sequence
+			Walk
+			Wait 10.0
+			RunningShooting
+			Wait 5.0
+		sequence
+			RunningShooting
+			Wait 10.0
+		sequence
+			Walk
+			Wait 10.0
+			RunningShooting
+			Wait 5.0
+			Attack
+			Wait 5.0
